@@ -1,7 +1,7 @@
 # Today I Learned 2020
 
 # 3/5/2020
-Id's take precedence over classes in css.
+Id's take precedence over classes in CSS  
 
 CSS Precedence rules:
 1. !important
@@ -13,7 +13,24 @@ Javascript whell events responds to the mousewheel
 The whell event uses a deltaY property for up or down  
 You can use the whell event + viewHeight to have controlled scrolling  
 
-html { scroll-behavior: smooth; } - Some css to controll scrolling behavior   
+```typescript
+//To Get ViewHeight
+const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+document.addEventListener("wheel", (event: WheelEvent) => {
+        if (event.deltaY > 0) {
+            window.scrollBy(0, viewHeight);
+        } else {
+            window.scrollBy(0, -viewHeight);
+        }
+    });
+```
+
+CSS to enable smooth scrolling
+```css
+html { scroll-behavior: smooth; } 
+```  
+
 Font families are applied to the body tag, not the html tag  
 
 # 3/9/10
@@ -21,3 +38,7 @@ Font families are applied to the body tag, not the html tag
 .NET Type constrains behavior in accordance to class inheritance  
 You can only have a single class constriant, but multiple interfaces  
 Order of constraints matters - class, interfaces, new()  
+
+```csharp
+public interface IPerson<T> where T : Entity, IEntity, IEquality, new()
+```
