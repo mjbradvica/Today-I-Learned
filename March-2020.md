@@ -1,5 +1,3 @@
-# Today I Learned 2020
-
 # 3/5/2020
 Id's take precedence over classes in CSS  
 
