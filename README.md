@@ -13,7 +13,8 @@ Javascript whell events responds to the mousewheel
 The whell event uses a deltaY property for up or down  
 You can use the whell event + viewHeight to have controlled scrolling  
 
-html { scroll-behavior: smooth; } - Some css to controll scrolling behavior
+html { scroll-behavior: smooth; } - Some css to controll scrolling behavior   
+Font families are applied to the body tag, not the html tag  
 
 # 3/9/10
 
