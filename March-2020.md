@@ -47,4 +47,24 @@ React uses the forHtml tag instead of for tag for labels
 ```html
 <label htmlFor="input"></label>
 <input id="input"></input>
-```
+```  
+
+# 3/15
+
+You don't need the Microsoft.Extensions.DepedencyInjection package to use the default .NET Core DI   
+
+Lifetimes available:
+1. Singleton - One instance  
+2. Scoped - One instance per http request  
+3. Transient - Instance per request  
+
+Features not supported:  
+1. Property Injection  
+2. Injection based on name  
+3. Child containers  
+4. Custom lifetimes  
+5. Lazy initialization  
+
+DbContexts should use a scoped lifetime.  
+You can manually wire up dependencies by using the ServiceDescriptor class  
+The IServiceProvider interface can be used to obtain existing dependencies  
