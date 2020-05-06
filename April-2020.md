@@ -15,7 +15,7 @@ In CSS, you can hightlight the whole page to see the size and spacing of all ele
 * * * * * * * * * { background-color: rgba(0,0,255,.2); }
 ```
 
-#4/24
+# 4/24
 
 How to take multiple byte arrays, and return a pdf in C#.
 
