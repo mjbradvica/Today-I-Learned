@@ -11,3 +11,5 @@ Rxjs "from" operator will return items one by one
 # 9/15
 The <track> html element is used for sub-titles  
 It uses a special .vtt file to dictate text at what time
+The "cuechange" event will fire when a TextTrack changes  
+Knockout can use a "virtual container" in html comments for if bindings  
