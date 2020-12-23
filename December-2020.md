@@ -23,3 +23,8 @@ EFCore 5 can filter includes:
 ```csharp
 planes.Include(x => x.AircraftType.Where(y => y.Id == id));
 ```
+
+# 12/23
+
+MSAL is a OAuth2 and OpenId Connect library
+Located in the Microsoft.Identity.Web package

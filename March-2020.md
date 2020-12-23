@@ -2,11 +2,13 @@
 Id's take precedence over classes in CSS  
 
 CSS Precedence rules:
+
 1. !important
 2. Specificty of css rule selectors
 3. Sequence of declaration
 
 # 3/7
+
 Javascript whell events responds to the mousewheel  
 The whell event uses a deltaY property for up or down  
 You can use the whell event + viewHeight to have controlled scrolling  
@@ -25,6 +27,7 @@ document.addEventListener("wheel", (event: WheelEvent) => {
 ```
 
 CSS to enable smooth scrolling
+
 ```css
 html { scroll-behavior: smooth; } 
 ```  
@@ -40,6 +43,7 @@ Order of constraints matters - class, interfaces, new()
 ```csharp
 public interface IPerson<T> where T : Entity, IEntity, IEquality, new()
 ```
+
 # 3/13
 
 React uses the forHtml tag instead of for tag for labels  
@@ -51,14 +55,16 @@ React uses the forHtml tag instead of for tag for labels
 
 # 3/15
 
-You don't need the Microsoft.Extensions.DepedencyInjection package to use the default .NET Core DI   
+You don't need the Microsoft.Extensions.DepedencyInjection package to use the default .NET Core DI
 
 Lifetimes available:
+
 1. Singleton - One instance  
 2. Scoped - One instance per http request  
 3. Transient - Instance per request  
 
 Features not supported:  
+
 1. Property Injection  
 2. Injection based on name  
 3. Child containers  
