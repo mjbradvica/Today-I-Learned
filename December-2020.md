@@ -28,3 +28,11 @@ planes.Include(x => x.AircraftType.Where(y => y.Id == id));
 
 MSAL is a OAuth2 and OpenId Connect library
 Located in the Microsoft.Identity.Web package
+
+# 12/25
+
+For Swagger, the Name of the route determines client calling method
+
+```csharp
+[HttpGet("", Name = "get-entity-by-id")]
+```
